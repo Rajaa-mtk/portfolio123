@@ -1,20 +1,21 @@
 import { motion } from 'framer-motion'
+
 const Loader = () => {
 
-    const conContainerVariants = {
-        hidden:{
-            x:0
-        },
-        visible:{
-            x: '100vw',
-            transition:{
-              ease: [0.25, 0.25, 0.25, 0.75],
-              type: 'spring',
-              duration: 1,
-              delay:0.1
-            }
-        }
+  const conContainerVariants = {
+    hidden:{
+      x:0
+    },
+    visible:{
+      x: '100vw',
+      transition:{
+        ease: [0.25, 0.25, 0.25, 0.75],
+        type: 'spring',
+        duration: 1,
+        delay:0.1
+      }
     }
+  }
 
   return (
     <>
@@ -28,7 +29,6 @@ const Loader = () => {
           <span className='w-[4px] h-[25px] bg-primary inline-block'></span>
           <span>PORTFOLIO</span>
         </div>
-
       </motion.div>
     </>
   )

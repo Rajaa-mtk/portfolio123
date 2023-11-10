@@ -1,32 +1,34 @@
-import TagComponent from '../components/App/tagComp'
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { RiRadioButtonLine } from 'react-icons/ri'
-import { Link } from 'react-router-dom'
+
+import TagComponent from '../components/App/tagComp'
 import { aboutData } from '../Data/data'
-import { motion } from 'framer-motion'
 import ProjectsBg from '../components/App/pagesBackground'
 
 const About = () => {
   const sectionVariants = {
-      hidden:{
-        x:'100vw'
-      },
-      visible:{
-        x:0,
-        transition:{
-          type: 'spring',
-          mass:0.4,
-          damping:8,
-        }
-      },
-      exit:{
-        x:'-50vw',
-        opacity:0,
-        transition:{
-          ease: 'easeInOut',
-          duration:2,
-        }
+    hidden:{
+      x:'100vw'
+    },
+    visible:{
+      x:0,
+      transition:{
+        type: 'spring',
+        mass:0.4,
+        damping:8,
       }
+    },
+    exit:{
+      x:'-50vw',
+      opacity:0,
+      transition:{
+        ease: 'easeInOut',
+        duration:2,
+      }
+    }
   }
   
   return (
@@ -39,7 +41,9 @@ const About = () => {
         <div className='flex lg:gap-x-8 flex-col lg:flex-row flex-[50%] items-center justify-center'>
           <div className='mb-4'>
             <h1 className='text-[25px] lg:text-[40px] font-bold mb-4 leading-[45px]'>Hello, I'm <span className='text-pink'>Rajaa Moutiq.</span></h1>
-            <div className='flex  items-center gap-x-2 text-[#6e829c] text-[12px] -mt-4'><RiRadioButtonLine className='text-[#42b883] animate-ping'  /> Currently in Charlotte, NC</div>
+            <div className='flex  items-center gap-x-2 text-[#6e829c] text-[12px] -mt-4'>
+              <RiRadioButtonLine className='text-[#42b883] animate-ping'  /> Currently in Charlotte, NC
+            </div>
           </div>
           <div className='flex flex-col gap-y-4'>
             <p className='w-full max-w-[500px]'>I hold a master's degree in Finance from a Business & Engineering school.<br/>

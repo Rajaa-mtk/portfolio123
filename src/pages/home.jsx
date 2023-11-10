@@ -4,13 +4,14 @@ import Hero from '../components/Home/hero'
 
 const Home = () => {
   const [active, setActive] = useState(false)
+  
   useEffect(() => {
     setTimeout(() => {
       setActive(true)
       
     },100);
-
   },[])
+
   return (
     <section className='section'>
       {active && (

@@ -16,7 +16,7 @@ const ProjectDetails = ({title, desc, skills, detail,image,href}) => {
           ))}
         </ul>
         <button className='w-fit btn-secondary  text-white'>
-          <a  href={href} target="_blank" className='flex gap-x-2 items-center'>
+          <a  href={href} target="_blank" rel="noopener" className='flex gap-x-2 items-center'>
             Vsiti the App
           </a>
         </button>

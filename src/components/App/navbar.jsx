@@ -1,19 +1,18 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import {AiFillLinkedin} from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
 const navVariants = {
   hidden:{
-      y: '-120px'
+    y: '-120px'
 
   },
   visible:{
-      y:0,
-      transition:{
-          ease: 'linear',
-          duration:0.8,
-      }
+    y:0,
+    transition:{
+      ease: 'linear',
+      duration:0.8,
+    }
   }
 
 }
@@ -25,7 +24,7 @@ const Navbar = () => {
       variants={navVariants} initial='hidden' animate={'visible'}
       >
 
-        <Link to='/' className='flex-1 font-primary text-primary md:text-[20px] font-bold flex gap-x-2 items-center'>
+        <Link to='/portfolio123' className='flex-1 font-primary text-primary md:text-[20px] font-bold flex gap-x-2 items-center'>
             <span className='text-pink'>RM</span>
             <span className='w-[4px] h-[26px] bg-primary inline-block'></span>
             <span>PORTFOLIO</span>

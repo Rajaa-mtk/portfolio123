@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import TagComponent from '../components/App/tagComp'
+import earthPlanet  from '../Data/Images/earth.png'
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
 
       <div className='container flex lg:flex-row flex-col py-4 lg:py-8 gap-y-8 gap-x-8 min-h-[calc(100vh-190px)] justify-center items-center'>
         <motion.div className='flex justify-center items-center origin-top' initial={{scale:0.3}} animate={{scale:1, transition:{ease:'linear' , duration:1, delay:0.3}}}>
-          <img src='earth.png' alt='' className='max-h-[400px]' />
+          <img src={earthPlanet} alt='' className='max-h-[400px]' />
         </motion.div>
         <div className='flex flex-col lg:py-16'>
           <h1 className='title text-[25px]'>Have a question or want to work together?</h1>

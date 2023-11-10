@@ -1,6 +1,7 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Transition1, Transition2 } from '../../transition'
+import image1 from '../../Data/Images/resume.jpg'
+import image2 from '../../Data/Images/womendev.png'
 
 
 const AnimatedBox = () => {
@@ -44,7 +45,7 @@ const AnimatedBox = () => {
       >
 
         <motion.img
-          src='resume.webp' 
+          src={image1} 
           alt='resume' 
           className='z-50 absolute -top-6 -left-4 w-full h-[380px]'
           animate={{
@@ -68,7 +69,7 @@ const AnimatedBox = () => {
           }
         }}
       >
-        <img src='womendev.png' alt='female' className='h-full' />
+        <img src={image2} alt='female' className='h-full' />
       </motion.div>
 
     </div>

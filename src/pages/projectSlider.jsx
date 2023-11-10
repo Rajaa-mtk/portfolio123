@@ -1,8 +1,10 @@
-import React from 'react'
-import ProjectDetails from '../components/Projects/projectDetails'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination} from 'swiper/modules';
 import { motion } from 'framer-motion'
+
+import ProjectDetails from '../components/Projects/projectDetails'
+import starbImage from '../Data/Images/starbucksdevice.png'
+import dribeluxImage from '../Data/Images/driveLuxdevice.png'
 
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
@@ -30,10 +32,10 @@ const ProjectSlider = () => {
         }}
       >
         <SwiperSlide>
-          <ProjectDetails title='Starbucks' desc='E-COMMERCE APPLICATION' detail='Check out my Starbucks-inspired website demo that i created for my portfolio' skills={skills} image={'starbucksdevice.png'} href='https://fir-starbucks-3eb22.web.app' />
+          <ProjectDetails title='Starbucks' desc='E-COMMERCE APPLICATION' detail='Check out my Starbucks-inspired website demo that i created for my portfolio' skills={skills} image={starbImage} href='https://fir-starbucks-3eb22.web.app' />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectDetails title='DriveLux' desc='RENTAL CAR APPLICATION' detail='Check out my Rental Car website for renting Luxury cars' skills={skills} image={'driveLuxdevice.png'} href='https://drivelux-ed29b.web.app' />
+          <ProjectDetails title='DriveLux' desc='RENTAL CAR APPLICATION' detail='Check out my Rental Car website for renting Luxury cars' skills={skills} image={dribeluxImage} href='https://drivelux-ed29b.web.app' />
         </SwiperSlide>
       </Swiper>
     </motion.section>
