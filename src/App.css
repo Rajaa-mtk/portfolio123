@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *{
+        @apply m-0 p-0 box-border
+    }
+    html{
+        @apply scroll-smooth 
+    }
+    body{
+        @apply overflow-x-hidden bg-body-bg font-secondary text-primary 
+    }
+    button{
+        @apply text-[20px] px-6 py-1 rounded-md  border-2 border-pink
+    }
+    .btn-primary{
+        @apply bg-white text-pink  hover:bg-pink hover:text-white transition-all duration-300
+    }
+    
+    .btn-secondary{
+        @apply bg-pink text-white  hover:bg-white hover:text-pink transition-all duration-300
+    }
+    .section{
+        @apply pb-14 
+    }
+    .title{
+        @apply  leading-[28px] font-bold text-primary 
+    }
+    .clipPath{
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #656060;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+    height: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
