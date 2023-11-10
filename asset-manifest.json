@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio123/static/css/main.0fde6b38.css",
-    "main.js": "/portfolio123/static/js/main.912f399d.js",
+    "main.js": "/portfolio123/static/js/main.ad2ab6cd.js",
+    "static/media/earth.png": "/portfolio123/static/media/earth.a096de0400b223910667.png",
+    "static/media/starbucksdevice.png": "/portfolio123/static/media/starbucksdevice.5c6067a4d35e6736dcc6.png",
+    "static/media/resume.jpg": "/portfolio123/static/media/resume.e5bd80058fc2199ff4c0.jpg",
+    "static/media/developer.png": "/portfolio123/static/media/developer.f24f62769d571ad7690f.png",
+    "static/media/web-development.png": "/portfolio123/static/media/web-development.aeafc14b70f92ac004cf.png",
+    "static/media/driveLuxdevice.png": "/portfolio123/static/media/driveLuxdevice.6658c418fe01b91f1f47.png",
+    "static/media/womendev.png": "/portfolio123/static/media/womendev.637d66b65fbbe2324f0c.png",
+    "static/media/html5.png": "/portfolio123/static/media/html5.5558b872c781ce706c24.png",
+    "static/media/tag.png": "/portfolio123/static/media/tag.520489985cd18b4daab8.png",
     "index.html": "/portfolio123/index.html",
     "main.0fde6b38.css.map": "/portfolio123/static/css/main.0fde6b38.css.map",
-    "main.912f399d.js.map": "/portfolio123/static/js/main.912f399d.js.map"
+    "main.ad2ab6cd.js.map": "/portfolio123/static/js/main.ad2ab6cd.js.map"
   },
   "entrypoints": [
     "static/css/main.0fde6b38.css",
-    "static/js/main.912f399d.js"
+    "static/js/main.ad2ab6cd.js"
   ]
 }
