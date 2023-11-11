@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <section className='section'>
       {active && (
-        <div className='w-full h-full container flex flex-col lg:flex-row justify-between items-center py-16 lgpy-8 gap-y-12 gap-x-4'>
+        <div className='w-full h-full container flex flex-col lg:flex-row justify-between items-center py-8 gap-y-12 gap-x-4'>
           <AnimatedBox />
           <Hero />
         </div>

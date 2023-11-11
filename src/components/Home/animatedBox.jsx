@@ -11,7 +11,7 @@ const AnimatedBox = () => {
     className='w-full overflow-hidden flex-[50%] flex justify-center items-center'
     initial={{scale: 0}} animate={{scale: 1, transition: {type:'tween', duration:0.5, ease: [0.25, 0.25, 0.25, 0.75]}}} exit={{x: '-50%', opacity:0, transition: {duration:1.5, ease: 'easeInOut'}}}
   >
-    <div className='relative max-w-[350px] w-[350px] h-[400px] min-h-[400px] max-h-[400px]'>
+    <div className='relative max-w-[350px] w-[350px] h-[280px] lg:h-[400px]  max-h-[400px]'>
 
       <motion.div
         className='w-[200px] h-[300px] bg-[#ff007b] rounded-tl-[30%] absolute left-0 z-10 shadow-4xl'
