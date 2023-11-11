@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio123/static/css/main.76e2394f.css",
-    "main.js": "/portfolio123/static/js/main.be4ab4bc.js",
+    "main.js": "/portfolio123/static/js/main.24e47ef5.js",
     "static/media/earth.png": "/portfolio123/static/media/earth.a096de0400b223910667.png",
     "static/media/starbucksdevice.png": "/portfolio123/static/media/starbucksdevice.5c6067a4d35e6736dcc6.png",
     "static/media/resume.jpg": "/portfolio123/static/media/resume.e5bd80058fc2199ff4c0.jpg",
@@ -13,10 +13,10 @@
     "static/media/tag.png": "/portfolio123/static/media/tag.520489985cd18b4daab8.png",
     "index.html": "/portfolio123/index.html",
     "main.76e2394f.css.map": "/portfolio123/static/css/main.76e2394f.css.map",
-    "main.be4ab4bc.js.map": "/portfolio123/static/js/main.be4ab4bc.js.map"
+    "main.24e47ef5.js.map": "/portfolio123/static/js/main.24e47ef5.js.map"
   },
   "entrypoints": [
     "static/css/main.76e2394f.css",
-    "static/js/main.be4ab4bc.js"
+    "static/js/main.24e47ef5.js"
   ]
 }
