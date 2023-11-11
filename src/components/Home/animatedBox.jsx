@@ -58,7 +58,7 @@ const AnimatedBox = () => {
 
       <motion.div className='absolute w-full h-full z-50 top-0 left-0'
         animate={{
-          left:['0px', '400px', '400px', '400px', '400px', '0px'],
+          left:['50px', '400px', '400px', '400px', '400px', '50px'],
           opacity: [1, 0, 0, 0, 0, 1],
           transition:{
           delay:1,
